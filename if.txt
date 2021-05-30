@@ -1,0 +1,37 @@
+Simple IF
+--------------
+if cond1:
+	express1
+	express2
+
+Ladder IF
+------------
+if cond1:
+	ex1
+	ex2
+elif cond2:
+	ex3
+	ex4
+elif cond3:
+	ex5
+else:
+	ex6
+
+Nested IF
+------------
+if cond1:
+	ex1
+	if cond2:
+		ex2
+	elif cond3:
+		ex3
+
+Hybrid IF
+------------
+if cond1:
+	ex1
+	if cond2:
+		ex2
+elif cond3:
+	ex3
+
