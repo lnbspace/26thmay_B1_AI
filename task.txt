@@ -1,0 +1,16 @@
+1. Name - Paneer,Pizza, Dhokla....
+2. Price - ......
+3. Place (City) - Jaipur, 
+4. Color - White, yellow, green, blue,
+5. Cuisine - Indian, Mexican, chinese, italican, mughalai, gujarati, thai
+6. Taste - sweet, spicy, salty, bitter, crunchy, creamy
+
+
+15-20 Values
+
+1. Costliest Food
+2. cheapest sweet
+3. white food found in Jaipur
+4. which cusine most popular
+5. count of different tastes for foods
+6. food which is available in Indore and is sweet
