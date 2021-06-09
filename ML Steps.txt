@@ -1,0 +1,50 @@
+Scikit Learn
+------------------
+pip install scikit-learn
+
+
+
+import pandas as pd
+
+from sklearn._________ import ______________
+
+
+###########################################################
+
+cleaned_data
+x = cleaned_data[[feature_columns]]  # Feature COlumns, which are affecting output
+y = cleaned_data[label_column] # the thing that we'll predict later on
+
+#1. Splitting the dataset
+from sklearn.model_selection import train_test_split
+xtrain, xtest, ytrain, ytest = train_test_split(x,y, test_size=0.2, random_state=101)
+
+#2. Create Empty Model for Machine LEarning
+from sklearn.linear_model import LinearRegression
+model = LinearRegression()
+
+#3. Train your model (fit the data)
+model.fit(xtrain, ytrain)
+
+#4. Evaluate
+model.score(xtest, ytest)
+
+ypreditcted = model.predict(xtest)
+
+from sklearn.metrics import mean_absolute_error, .....
+print(mean_absolute_error(ytest, ypredicted))
+
+#5. Deployment
+model.predict(.......)
+........
+....
+
+
+
+
+
+
+
+
+
+Scikit Image
