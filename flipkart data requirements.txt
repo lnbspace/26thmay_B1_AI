@@ -1,0 +1,14 @@
+smart phones ON FLIPKART
+----------------
+Title
+Price Discounted
+Price Original
+Average Rating
+Total Rating
+Total Reviews
+Feature 1
+Feature 2
+...
+...
+...
+Feature 6
